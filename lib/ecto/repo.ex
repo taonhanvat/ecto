@@ -261,7 +261,11 @@ defmodule Ecto.Repo do
         insert_all: 2,
         insert_all: 3,
         update_all: 2,
-        update_all: 3
+        update_all: 3,
+        delete: 1,
+        delete: 2,
+        delete!: 1,
+        delete!: 2
       ]
     end
   end
